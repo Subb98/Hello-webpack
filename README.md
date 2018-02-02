@@ -1,6 +1,8 @@
 # Hello webpack
 Webpack HW app, wrapped with Docker Compose
 
+![](https://i.imgur.com/f5S2nWO.png)
+
 ## Includes
 - [webpack](https://github.com/webpack/webpack)
 - [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
@@ -15,9 +17,9 @@ docker-compose run node yarn install
 
 ## Usage
 1. Run ```docker-compose up``` in your terminal
-- Open [localhost:3000/index.html](http://localhost:3000/index.html) in your browser
-- You must see ```Hello webpack!``` text
-- Change the app like you need
+2. Open [localhost:3000/index.html](http://localhost:3000/index.html) in your browser
+3. You must see ```Hello webpack!``` text
+4. Change the app like you need
 
 ## License
 MIT

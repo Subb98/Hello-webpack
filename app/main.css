@@ -1,0 +1,8 @@
+body {
+  background-color: #2b3a42;
+}
+
+div.alert {
+  font: normal 20pt courier new;
+  color: white;
+}
