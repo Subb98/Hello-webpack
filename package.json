@@ -1,0 +1,22 @@
+{
+  "name": "hello-webpack",
+  "version": "0.0.1",
+  "author": "Subb98",
+  "description": "Webpack HW app",
+  "main": "app/main.js",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Subb98/Hello-webpack.git"
+  },
+  "homepage": "https://github.com/Subb98/Hello-webpack",
+  "license": "MIT",
+  "keywords": ["hello", "world", "hw", "webpack", "webpack-dev-server", "example"],
+  "private": true
+}
