@@ -1,9 +1,12 @@
 # Hello webpack
 Webpack HW app, wrapped with Docker Compose
 
-![](https://i.imgur.com/f5S2nWO.png)
+![](https://i.imgur.com/Q4UiIgE.png)
 
-## Includes
+## Dev dependencies
+- [css-loader](https://github.com/webpack-contrib/css-loader)
+- [file-loader](https://github.com/webpack-contrib/file-loader)
+- [style-loader](https://github.com/webpack-contrib/style-loader)
 - [webpack](https://github.com/webpack/webpack)
 - [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
 
@@ -22,7 +25,7 @@ docker-compose run node yarn install
 4. Change the app like you need
 
 ## License
-MIT
+[MIT](https://opensource.org/licenses/MIT)
 
 ## See also
 - [webpack configuration](https://webpack.js.org/configuration/)

@@ -1,8 +1,52 @@
 body {
+  margin: 0;
+  padding: 5px 0;
+  font: normal 14pt courier new;
+  text-align: center;
+  color: #2b3a42;
+}
+
+.title {
+  font-size: 24pt;
+}
+
+.vendors {
+  margin: 10px 0;
+}
+
+a {
+  color: white;
+}
+
+a, .vendor {
+  text-decoration: none;
+}
+
+.icon {
+  height: 72px;
+  margin-right: 20px;
+  border: 0;
+}
+
+.footer {
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  padding: 5px 0;
+  color: white;
   background-color: #2b3a42;
 }
 
-div.alert {
-  font: normal 20pt courier new;
-  color: white;
+.limiter {
+  margin: 0 auto;
+  width: 220px;
+}
+
+.copyright {
+  float: left;
+}
+
+#github_icon {
+  height: 32px;
+  border: 0;
 }

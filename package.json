@@ -6,6 +6,7 @@
   "main": "app/main.js",
   "devDependencies": {
     "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
     "style-loader": "^0.20.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
