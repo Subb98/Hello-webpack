@@ -1,7 +1,7 @@
 # Hello webpack
 Webpack HW app, wrapped with Docker Compose
 
-![](https://i.imgur.com/Q4UiIgE.png)
+![](https://i.imgur.com/TXiAXu0.png)
 
 ## Dev dependencies
 - [css-loader](https://github.com/webpack-contrib/css-loader)

@@ -11,7 +11,12 @@ body {
 }
 
 .vendors {
-  margin: 10px 0;
+  width: 586px;
+  height: 72px;
+  line-height: 72px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 14px 0;
 }
 
 a {
@@ -24,8 +29,26 @@ a, .vendor {
 
 .icon {
   height: 72px;
-  margin-right: 20px;
+  float: left;
+  margin-right: 30px;
+  background-size: auto 72px;
+  background-repeat: no-repeat;
   border: 0;
+}
+
+#webpack_icon {
+  width: 72px;
+  background-image: url('../web/img/webpack.svg');
+}
+
+#nodejs_icon {
+  width: 120px;
+  background-image: url('../web/img/nodejs.svg');
+}
+
+#docker_icon {
+  width: 304px;
+  background-image: url('../web/img/docker.svg');
 }
 
 .footer {
@@ -38,15 +61,24 @@ a, .vendor {
 }
 
 .limiter {
+  width: 190px;
   margin: 0 auto;
-  width: 220px;
 }
 
 .copyright {
+  width: 158px;
   float: left;
 }
 
+.repository {
+  width: 32px;
+  margin-left: 164px;
+}
+
 #github_icon {
+  width: 32px;
   height: 32px;
+  background: url('../web/img/github.svg') no-repeat;
+  background-size: 32px 32px;
   border: 0;
 }
