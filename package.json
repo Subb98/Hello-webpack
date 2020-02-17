@@ -5,7 +5,7 @@
   "description": "webpack HW app",
   "main": "app/main.js",
   "devDependencies": {
-    "css-loader": "^0.28.9",
+    "css-loader": "^1.0.0",
     "file-loader": "^1.1.6",
     "style-loader": "^0.20.1",
     "webpack": "^4.41.6",
